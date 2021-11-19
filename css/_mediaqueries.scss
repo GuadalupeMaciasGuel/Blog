@@ -1,0 +1,55 @@
+@media screen and (max-width: 768px) {
+    header {
+        .logo {
+            text-align: center;
+        }
+        .redes-sociales {
+            display: none;
+        }
+        .menu {
+            ul {
+                text-align: center;
+                li {
+                    float: none;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+    .main {
+        .posts {
+            .post {
+                .contenedor {
+                    .info {
+                        .extracto {
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+        .paginacion {
+            ul {
+                li {
+                    margin-bottom: 1.25em;
+                }
+            }
+        }
+    }
+    .sidebar {
+        display: none;
+    }
+    footer {
+        .menu {
+            ul {
+                text-align: center;
+                li {
+                    float: none;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:110px) {}
